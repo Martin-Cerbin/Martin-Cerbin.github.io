@@ -1,0 +1,515 @@
+
+
+
+/* RESPONSIVE FUNCIONA EN: 
+MOBILE: 320PX - 375PX - 425PX - 768PX
+WEB: 1440PX  */
+
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+/*--------PROPIEDADES GENERICAS-------*/
+.flexBox{
+    display: flex;
+}
+.boxSection{
+    width: 95vw;
+    max-width: 500px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #B3B2B7;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 5px;
+    
+}
+.pCentrado{
+    text-align: center;
+}
+
+.hColor{
+    color:#232C50;
+}
+.columnCenter{
+    flex-direction: column;
+    align-items: center;
+}
+.boton{
+    color: #FFFFFF;
+    background: #F3603B;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+    border: none;
+}
+/*--BOTON GET STARTED--*/
+.getStarted{
+    width: 100px;
+    height: 35px;
+}
+/* ---BOTON NUMEROS--- */
+.botonNumero{
+    width: 38px;    
+    padding: 7px;
+}
+/* BACKGROUND Y PROPIEDADES DE NUMEROS  */
+.backgroundNumero{
+    margin-left: 10px;
+    height: 30px;
+    background-color: #FFE5CC;
+    align-items: center;
+}
+.h5Position{
+    margin-left: 10px;
+}
+/* AVATAR */
+.avatar{
+    position: relative;
+    top: 30px;
+    width: 60px;
+}
+.avatarBox{
+    background-color: #FAFAFA;
+}
+.hTarjeta{
+    position: relative;
+    margin-top: 50px;
+}
+.pTarjeta{
+    padding: 20px;
+}
+.width_mobile{
+    width: 320px;
+}
+
+
+
+/*---------HEADER---------*/
+header{
+    justify-content: space-around;
+    width: 100vw;
+    margin-bottom: 30px;
+    margin-top: 10px;   
+}
+.logoManage{
+    width: 100px;
+}
+.hamburger{
+    width: 20px;
+}
+.introSection{
+    justify-content: center;    
+}
+/*IMAGENES DE INICIO*/
+.introIMG{
+    min-width: 300px;
+    width: 30vw;
+}
+
+
+/*TITULO PRINCIPAL*/
+
+.sectionTitulo{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+.pTitulo{
+    position: relative;
+    bottom: 25px;
+}
+.boton_titulo{
+    position: relative;
+    bottom: 20px;
+}
+
+/* SECCION SUBTITULO */
+.p_subtitulo{
+    position: relative;
+    bottom: 30px;
+    padding-bottom: 5px;
+}
+
+
+
+/* SECION DE MANAGE */
+.box_manage{
+    margin-bottom: 25px;
+}
+.carrusel{
+    color: #F3603B;
+    padding-top: 15px;
+}
+.carrusel_selec{
+    font-size: 10px;
+}
+
+
+
+/* ----- BOX INFERIOR ----- */
+.boxInferior{
+    background-color: #F3613C;
+    color: #FAFAFA;
+    height: 300px;
+    width: 100vw;
+    justify-content: center;
+}
+.pInferior{
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #FAFAFA;
+    padding: 20px;
+}
+.boton_pre_footer{
+    margin: 40px;
+}
+/*--BOTON GET STARTED BLANCO--*/
+.botonblanco{
+    color: #F3603B;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+}
+.botonInferior{
+    width: 110px;
+    height: 35px;
+}
+
+
+
+
+/* FOOTER */
+.footer_box{
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    background-color: #1E1E26;
+    width: 100vw;
+}
+/* INPUT SEARCH */
+.botonGo{
+    width: 55px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 10px;
+}
+.updateBox{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.form_footer{
+    justify-content: space-evenly;
+}
+#email{
+    border-radius: 50px;
+    border: none;
+    width: 200px;
+    height: 30PX;
+}
+/* NAVEGACION DE FOOTER */
+.nav_footer_active{
+    color: #FAFAFA;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    padding: 10px 0px;
+}
+.nav_footer{
+    justify-content: space-around;
+}
+
+.texto_form{
+    visibility:hidden;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-style: oblique;
+}
+ul{
+    list-style: none;
+}
+
+/* ICONOS DE REDES SOCIALES */
+.iconosBox{
+    justify-content: space-evenly;
+}
+.icono{
+    color: #FAFAFA;
+    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+}
+.logo_iconos_box{
+    flex-direction: column;
+}
+
+/* LOGO DEL FOOTER */
+.manageFooter{
+    width: 170px;
+}
+.manageFooter_Box{
+    padding: 30px;
+    justify-content: center;
+}
+.pFooter_box{
+    padding: 20px;
+}
+.pFooter{
+    font-size: 10px;
+}
+.icono{
+    color: #FAFAFA;
+    font-size: 25px;
+}
+
+
+
+
+/*-------ELEMENTOS FUERA DE MOBILE-------*/
+#nav{
+    display: none;
+}
+.botonNav{
+    display: none;
+}
+.tarjetaOut{
+    display: none;
+}
+.copyright_web{
+    display: none;
+}
+
+
+
+
+@media (min-width: 1025px){
+
+/* ELEMENTOS MODIFICADOS */
+p{
+    font-size: 16px;
+    line-height: 24.18px;
+    font-weight: 500;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+.introSection{
+    justify-content:left;    
+}
+.sectionTitulo{
+    align-items: flex-start;
+}
+header{
+    max-width: 1024px;
+}
+
+
+/*ELEMENTOS QUE SALEN*/
+.hamburger{
+    display: none;
+}
+.copyrigth{
+    display: none;
+}
+.carrusel{
+    display: none;
+}
+
+
+/* ELEMENTOS QUE ENTRAN */
+
+/*-----HEADER-----*/
+.boxMargin{
+    margin: 10px;
+}
+header{
+    align-items: center;
+    justify-content: space-between;
+}
+#nav{
+    display: block;
+    width: 60vw;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.botonNav{
+    display: block;
+}
+.tarjetasIn{
+    display: flex;
+}
+.listNav{
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1rem;
+    padding: 0%;
+}
+.nav_header{
+    color: #242E52;
+}
+.logoManage{
+    width: 150px;
+}
+
+
+
+/* ---------MAIN--------- */
+.primerBloque{
+    margin-top: 3vw;
+    flex-direction:row-reverse;
+}
+.segundoBloque{
+    margin: 3vw;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.p_web{
+    text-align: left;
+}
+.p_web_color{
+    color: #1E1E26;
+}
+.box_numeros_web{
+    background-color: #FFFFFF;
+}
+.p_de_numeros{
+    padding-left: 75px;
+    margin-top: 0px;
+}
+
+
+/* MODIFICACION DE TAMAÑOS DE BOX */
+.box_manage{
+    margin: 10px;
+}
+.sectionTitulo{
+    box-sizing: border-box;
+    padding-right: 90px;
+}
+
+
+
+
+/* TARJETAS */
+.divTarjetas{
+    flex-direction: row;
+    align-items:flex-start;
+}
+.boxSection_tarjetas{
+    width: 30vw;
+    margin: 5px;
+    max-width: 500px;
+    }
+
+/* BOX INFERIOR */
+.boxInferior{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pInferior{
+    max-width: 450px;
+    text-align: left;
+}
+
+
+
+
+/* FOOTER */
+.footer_box_web{
+    flex-direction: row;
+    justify-content: space-around;
+    height: 250px;
+    width: 100vw;
+}
+.logo_iconos_box{
+    order: 1;
+    flex-direction: column-reverse;
+    height: 160px;
+    justify-content: space-between;
+}
+.nav_footer{
+    order: 2;
+    width: 30vw;
+}
+.pFooter{
+    margin-bottom: 30px;
+}
+.updateBox_web{
+    flex-direction: column;
+    justify-content: space-between;
+    order: 3;
+    height: 90%;
+}
+.copyright_web{
+    display: block;
+}
+.manageFooter_Box{
+    padding: 0px;
+}
+
+}
+
+
+/* ------ PSEUDO CLASES ------- */
+
+/* HEADER */
+
+.nav_header :hover{
+    cursor: pointer;
+    color: #908d8d;
+    text-decoration: underline;
+}
+
+.nav_footer_active :hover{
+    color: #F3603B;
+}
+
+.botonTarjetas_active :hover{
+    cursor: pointer;
+    opacity: 0.9;
+    width: 100px;
+}
+
+.botonblanco_active :hover{
+    cursor: pointer;
+    color: #1E1E26;
+    font-size: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);    
+}
+
+.botonGo_active :hover{
+    cursor: pointer;
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+.texto_form{
+    display: block;
+    color: #F3603B;
+}
+.icono :hover{
+    cursor: pointer;
+    color: #F3603B;
+    font-size: 27px;
+}
